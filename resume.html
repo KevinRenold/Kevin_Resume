@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=0.5">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Times New Roman, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  text-align: center;  font-size: 25px;
+  color: white;
+  height: 250px;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 35%;
+  height: 1000px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 65%;
+  background-color: #f1f1f1;
+  height: 1000px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ 
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+#progress{
+  background-color: #333;
+  border-radius: 13px;
+  height: 8px;
+  width: 40%;
+ margin-left: 10px;
+ 
+ 
+ }
+ #progress:after{
+  content: '';
+  display: block;
+  background-color: DodgerBlue;
+  border-radius: 9px;
+  height: 8px;
+  width: 50%;
+ }
+#progress1{
+  background-color: #333;
+  border-radius: 13px;
+  height: 8px;
+  width: 40%;
+ margin-left: 10px;
+ 
+ 
+ }
+ #progress1:after{
+  content: '';
+  display: block;
+  background-color: DodgerBlue;
+  border-radius: 9px;
+  height: 8px;
+  width: 45%;
+ }
+#progress2{
+  background-color: #333;
+  border-radius: 13px;
+  height: 8px;
+  width: 40%;
+ margin-left: 10px;
+ 
+ 
+ }
+ #progress2:after{
+  content: '';
+  display: block;
+  background-color: DodgerBlue;
+  border-radius: 9px;
+  height: 8px;
+  width: 60%;
+ }
+#progress3{
+  background-color: #333;
+  border-radius: 13px;
+  height: 8px;
+  width: 40%;
+margin-left: 10px;
+ 
+ 
+ }
+ #progress3:after{
+  content: '';
+  display: block;
+  background-color: DodgerBlue;
+  border-radius: 9px;
+  height: 8px;
+  width: 40%;
+ }
+#progress4{
+  background-color: #333;
+  border-radius: 13px;
+  height: 8px;
+  width: 40%;
+  margin-left: 10px;
+ 
+ 
+ }
+ #progress4:after{
+  content: '';
+  display: block;
+  background-color: DodgerBlue;
+  border-radius: 9px;
+  height: 8px;
+  width: 70%;
+ }
+#progress5{
+  background-color: #333;
+  border-radius: 13px;
+  height: 8px;
+  width: 40%;
+  margin-left: 10px;
+ 
+ 
+ }
+ #progress5:after{
+  content: '';
+  display: block;
+  background-color: DodgerBlue;
+  border-radius: 9px;
+  height: 8px;
+  width: 75%;
+ }
+#progress6{
+  background-color: #333;
+  border-radius: 13px;
+  height: 8px;
+  width: 40%;
+ margin-left: 10px;
+ 
+ 
+ }
+ #progress6:after{
+  content: '';
+  display: block;
+  background-color: DodgerBlue;
+  border-radius: 9px;
+  height: 8px;
+  width: 55%;
+ }
+.ax{
+  height: 70px;
+  width: 25%;
+  padding-left: 100px;
+}
+
+  .dp{
+  width: 150px;
+  height: 150px;
+  padding: 10px 10px ;  
+  border: 4px solid black;
+  margin-left:5px ;
+  margin-top:5px;
+ }
+
+</style>
+</head>
+<body>
+<header>
+  <h2>Kevin D</h2>
+		<img src="C:\Users\kevin\Videos\html\file\T20I130 kevin D.jpg" class="dp  "></img>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <h2 style="color: red">ABOUT ME:</h2>
+<h3 style="padding-left:8px ">A highly skilled, competent, and diligent 
+individual is seeking an opportunity to establish a career as a Data Analyst.
+ Strong willingness to
+ exhibit my proficiency in Analytical tools, Statistics and Computing
+ Methodologies in the professional environment.</h3>
+      
+    </ul>
+     <ul>
+      <h2 style="color: red">SKILLS:</h2>
+	<h3>Project Management</h3>
+	<h3>Leadership</h3>
+	<h3>Adaptive</h3>
+       </ul>
+<ul>
+<h2 style="color: red">LINGUSTIC SKILL:</h2>
+	<h3>English</h3>
+	<h3>Tamil</h3>
+
+</ul>
+<ul>
+		<h2 style="color: red" >INTERNSHIP:</h2>
+<h3>Microsoft power BI with we and
+data
+</h3>
+</ul>
+<ul>
+<h2 style="color: red" >TOOL POWER:</h2>
+<h3 >Power BI<br> <br> Tableau<br> <br> Google data studio<br> <br> 
+Google collaboratory<br> <br> Oracle </h3></ul>
+
+  </nav>
+  
+  <article>
+    	<h2 style="color: SlateBlue;font-family: Times New Roman;padding-left: 10px; ">EDUCATION HISTORY:</h2>
+    <table style="width:100%">
+  <tr>
+    <th>Year</th>
+    <th>Institute</th>
+    <th>Course</th>
+    <th>Percentage</th>
+  </tr>
+  <tr>
+    <td>2020-2024</td>
+    <td>Karpagam College of Engineering</td>
+    <td>B.tech[Artificial Intelligence and Data Science]</td>
+    <td>CGPA-9.0</td>
+  </tr>
+  <tr>
+    <td>2020</td>
+    <td>Sri Vijay Vidyalaya Matric Higher Secondary School</td>
+    <td>HSC</td>
+    <td>65%</td>
+  </tr>
+<tr>
+    <td>2018</td>
+    <td>St.Joseph Matric Higher Secondary School</td>
+    <td>SSLC</td>
+    <td>83%</td>
+  </tr>
+</table>
+<h2 style="color: SlateBlue;font-family: Times New Roman;padding-left: 10px;">TECHNICIAL SKILLS:</h2>
+<p style="padding-left: 10px;" >Python</p>
+<div id="progress"></div>
+<p class="c" style="padding-left: 10px;">java</p>
+<div id="progress1"></div>
+<p class="c" style="padding-left: 10px;">C</p>
+<div id="progress2"></div>
+<p class="c" style="padding-left: 10px;">R</p>
+<div id="progress3"></div>
+<p class="c" style="padding-left: 10px;">Data visulaization</p>
+<div id="progress4"></div>
+<p class="c" style="padding-left: 10px;">DBMS</p>
+<div id="progress5"></div>
+<p class="c" style="padding-left: 10px;">HTML</p>
+<div id="progress6"></div>
+
+
+
+<h2 style="color:SlateBlue;font-family: Times New Roman;padding-left: 10px;>TECHNICAL TRAINING:</h2>
+<h5 style="color:gray;">WORKSHOP:</h5>
+<ol>
+	<li>Data Visualization Using TABLEAU
+Software</li>
+<li>FUNDAMENTALS OF DEEP LEARNING
+Using Python in NVIDIA</li>
+<li>Basic Fundamentals of CUDA
+Python with NIVIDA</li>
+</ol>
+<h2 style="color: SlateBlue;font-family: Times New Roman;padding-left: 10px;" >MINI PROJECTS:</h2>
+<ol>
+	<li>Hospital management system
+using C</li>
+<li>Species Detection Using Python(Tenserflow)
+</li>
+<li>DALL.E Text To Image Using Python
+</li>
+</ol>
+		
+    </div>
+
+  </article>
+</section>
+
+<footer>
+  <h2 style="color: white;font-family: Times New Roman" >CONTACT:</h2>
+	<h3>Hosur,Tamil Nadu.<br>
+kevinrernold16@gmail.com
+<br>
+8248096088
+<br></h3>
+</footer>
+
+</body>
+</html>
